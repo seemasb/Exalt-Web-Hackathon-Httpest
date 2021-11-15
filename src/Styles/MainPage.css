@@ -1,0 +1,21 @@
+.logo{
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 800px;
+}
+
+
+.MainPage_Header{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.NavBar{
+    float: right;
+}
+
+.MainPage_body{
+    display: flex;
+    flex-direction: row;
+}

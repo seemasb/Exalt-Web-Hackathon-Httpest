@@ -1,0 +1,9 @@
+.HeaderCol{
+  /* width: 100%; */
+  padding: 0px 0px 0px 0px !important;
+  width: 60%;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}

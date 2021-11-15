@@ -1,0 +1,59 @@
+
+
+.SideBar{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    margin-top: 31px;
+    margin-left: 10px;
+
+}
+
+.SideBar button{
+    color: #696969;
+    background: transparent;
+    width: 70%;
+    height: 40px;
+    align-self: center;
+    border: none;
+    margin-bottom: 12px;
+    min-width: 80%;
+    text-align: left;
+    text-align: -webkit-center;
+}
+
+
+.SideBar button:hover,
+.SideBar button:focus {
+  outline: none;
+  color: #fff;
+  background-color: #00A0D7;
+  border-color: #00A0D7;
+  border: 1px solid #00A0D7;
+  border-radius:10px;
+}
+
+.SideBar button:active {
+  color: #fff;
+  background-color: #00A0D7;
+  border-color: #00A0D7;
+}
+
+.Side_icon{
+  float: left;
+  margin-right: 10px;
+    margin-top: 5px;
+    position: relative;
+    left: 15px;
+}
+
+:target{outline: none;
+  color: #fff;
+  background-color: #00A0D7;
+  border-color: #00A0D7;
+  border: 1px solid #00A0D7;
+  border-radius:10px;}
+
+  .selected{
+    background-color: yellowgreen;
+  }
